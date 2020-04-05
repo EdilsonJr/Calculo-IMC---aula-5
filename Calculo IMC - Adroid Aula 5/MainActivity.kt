@@ -12,9 +12,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // Gasolina * 0.7 < Alcool = Gasolina é melhor
-        // senão, alcool é melhor
-
         botao.setOnClickListener{
             val peso = peso.text.toString().toDouble()
             val altura = altura.text.toString().toDouble()
